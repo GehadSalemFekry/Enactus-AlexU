@@ -37,7 +37,7 @@ Install VueCLI: https://cli.vuejs.org/guide/installation.html
 6. Generate application key: `php artisan key:generate`
 <!-- 7. Install Laravel Passport: `php artisan passport:install` -->
 
-## Vue Material Dashboard Project Installation
+## Vue Frontend Project Installation
 
 1. Navigate to your Vue Dashboard project folder:  `cd vue-frontend`
 2. Install project dependencies: `npm install`
