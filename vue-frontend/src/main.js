@@ -6,7 +6,6 @@ import App from './App.vue'
 
 
 // asset import
-import "./assets/scss/material-dashboard.scss";
-
+import "./assets/scss/main.scss";
 
 createApp(App).mount('#app')
