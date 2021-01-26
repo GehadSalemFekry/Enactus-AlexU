@@ -12,3 +12,13 @@ Vue.config.productionTip = false
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+
+const Demo = {
+  data() {
+    return {
+      show: true
+    }
+  }
+}
+
+Vue.createApp(Demo).mount('#demo')
