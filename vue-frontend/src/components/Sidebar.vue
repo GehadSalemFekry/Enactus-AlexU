@@ -4,7 +4,7 @@
     <div class="sidebar">
       <div class="sidebar-top">
         <div class="logo">
-          <img src="..\assets\enactus-logo.png" alt="" />
+          <img src="..\assets\img\enactus-logo.png" alt="" />
         </div>
         <div class="sign-btns">
           <a href="" class="btn-signup">Sign Up</a>
@@ -27,10 +27,10 @@
           <h5>Social Media</h5>
         </div>
         <div class="social-icons">
-          <a class="facebook" href="#"><img src="..\assets\facebook.png" /></a>
-          <a class="twitter" href="#"><img src="..\assets\twitter.png" /></a>
-          <a class="instagram" href="#"><img src="..\assets\instagram.png" /></a>
-          <a class="linkedin" href="#"><img src="..\assets\linkedin.png" /></a>
+          <a class="facebook" href="#"><img src="..\assets\img\facebook.png"/></a>
+          <a class="twitter" href="#"><img src="..\assets\img\twitter.png"/></a>
+          <a class="instagram" href="#"><img src="..\assets\img\instagram.png"/></a>
+          <a class="linkedin" href="#"><img src="..\assets\img\linkedin.png"/></a>
         </div>
       </div>
     </div>
@@ -38,14 +38,10 @@
 
     <!-- Open - Close Sidbar Button -->
     <div class="sidebar-btn">
-      <button class="close-sidebar open-sidebar" v-on:click="show = !show">
-        <img src="..\assets\backArrow.png" alt="" />
+      <button class="close-sidebar open-sidebar">
+        <img src="..\assets\img\backArrow.png" alt="" />
       </button>
     </div>
     <!--*-- Open - Close Sidbar Button --*-->
-
   </div>
 </template>
-
-<style scoped>
-</style>

@@ -1,14 +1,5 @@
 //variables
-@import "md/variables";
-
-$mainColor: #fcc200;
-$mainBackgroundColor: #f8f8f8;
-$mainSize: 16px;
-$mainTextColor: #707070;
-$sidebarTextColor: #c3c3c3;
-$sidebarActiveColor: #ffffff;
-$sidebarTopBackgroundColor: #ffffff;
-$sidebarBottomBackgroundColor: #444444;
+@import "md/var.scss";
 
 // Core CSS
 body {
@@ -154,16 +145,3 @@ body {
 }
 
 /*------*--- Sidebar ---*------*/
-.slide-fade-enter-active {
-    transition: all 0.3s ease-out;
-}
-
-.slide-fade-leave-active {
-    transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
-}
-
-.slide-fade-enter-from,
-.slide-fade-leave-to {
-    transform: translateX(20px);
-    opacity: 0;
-}
