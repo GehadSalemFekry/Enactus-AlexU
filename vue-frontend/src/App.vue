@@ -9,13 +9,13 @@
 <script>
 // import Sidebar from "./components/Sidebar.vue";
 import Language from "./components/Language";
-import Home from "./pages/Home";
+import Home from "./pages/home.vue";
 // import Signin from "./components/Signin.vue";
 
 export default {
   name: "App",
   components: {
-    // Sidebar,
+    //Sidebar,
     Language,
     Home,
   },
