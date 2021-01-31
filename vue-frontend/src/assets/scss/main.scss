@@ -14,3 +14,15 @@ body {
     font-family: "Poppins", sans-serif;
     color: $mainTextColor;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #a7a7a7;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: $mainColor;
+}
