@@ -2,22 +2,23 @@
   <div id="app">
     <!-- <Sidebar msg="Welcome to Your Vue.js App" /> -->
     <Language />
-    <Home />
+    <Login />
   </div>
 </template>
 
 <script>
 // import Sidebar from "./components/Sidebar.vue";
 import Language from "./components/Language";
-import Home from "./pages/home.vue";
-// import Signin from "./components/Signin.vue";
+//import Home from "./pages/Home";
+import Login from "./pages/Contactus";
 
 export default {
   name: "App",
   components: {
     //Sidebar,
     Language,
-    Home,
+    Login,
+    //Home,
   },
 };
 </script>
