@@ -8,7 +8,7 @@
         </div>
         <div class="sign-btns">
           <a href="" class="btn-signup">Sign Up</a>
-          <a href="" class="btn-signin">Sign in</a>
+          <a href="" class="btn-signin">Log In</a>
         </div>
       </div>
 

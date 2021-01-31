@@ -6,9 +6,11 @@
 
 // Core CSS
 @import "md/sidebar";
+@import "md/forms";
 
 
 body {
     //background-color: $mainBackgroundColor;
     font-family: "Poppins", sans-serif;
+    color: $mainTextColor;
 }
