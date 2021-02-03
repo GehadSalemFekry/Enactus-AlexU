@@ -1,4 +1,4 @@
-<template>
+<template lang="en">
   <div>
     <div class="img-home">
       <img src="../assets/img/home.jpg" />
@@ -9,7 +9,7 @@
     </div>
     <div class="container">
       <div class="about">
-        <h1 class="about-heading">Enactus Alexandria</h1>
+        <h1 class="heading">Enactus Alexandria</h1>
         <hr />
         <p class="heading-details">
           Enactus is the world’s largest experiential learning platform
@@ -63,7 +63,7 @@
       </div>
     </div>
 
-    <div class="gray-section">
+    <div class="white-section">
       <div class="container">
         <div class="row">
           <div class="logo">
@@ -92,7 +92,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="product-heading">Product</h1>
+            <h1 class="heading">Product</h1>
             <hr />
           </div>
 
@@ -100,7 +100,9 @@
             <div class="wood">
               <img src="../assets/img/wood-product.png" />
               <div class="product-name">Wood Project</div>
-              <div class="product-details"><a href="#">Details</a></div>
+              <div class="product-details">
+                <a href="/products/wood">Details</a>
+              </div>
             </div>
           </div>
 
@@ -108,135 +110,14 @@
             <div class="limpio">
               <img src="../assets/img/limpio-product.png" />
               <div class="product-name">Limpio Project</div>
-              <div class="product-details"><a href="#">Details</a></div>
+              <div class="product-details">
+                <a href="/products/limpio">Details</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <Language />
   </div>
 </template>
-
-<style scoped>
-.img-home {
-  width: 100%;
-  height: auto;
-}
-.img-home img {
-  width: 100%;
-}
-
-.img-home .img-text {
-  position: absolute;
-  text-align: center;
-  color: #fff;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  font-weight: 900;
-}
-.img-home .img-text span {
-  color: #fcc200;
-}
-.about-heading,
-.product-heading {
-  color: #fcc200;
-  font-size: 30px;
-  margin-top: 50px;
-  text-align: center;
-  font-weight: 900;
-  font-size: 40px;
-}
-.about hr,
-.product hr {
-  width: 25%;
-}
-.about .heading-details,
-.about p {
-  text-align: center;
-  margin-bottom: 60px;
-}
-.icon img {
-  margin-bottom: 40px;
-}
-.gray-section {
-  background: #ddd;
-}
-.row .logo {
-  position: absolute;
-}
-.row .logo img {
-  position: relative;
-  bottom: 165px;
-  left: 350%;
-  width: 150px;
-}
-.gray-section {
-  padding: 70px 0px;
-  margin-top: 75px;
-}
-.product hr {
-  margin-bottom: 50px;
-}
-
-.product {
-  margin-bottom: 50px;
-}
-
-.wood img,
-.limpio img {
-  display: block;
-  margin: 0px auto;
-}
-.wood .product-name,
-.limpio .product-name,
-.wood .product-details,
-.limpio .product-details {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  font-size: 35px;
-  transform: translate(-50%, -50%);
-  color: #8d8d8d;
-  font-weight: 900;
-}
-.wood .product-details,
-.limpio .product-details {
-  top: 85%;
-}
-.wood .product-details a,
-.limpio .product-details a {
-  color: #fff;
-  font-weight: 400;
-  background: #fcc200;
-  border-radius: 8px;
-  padding: 10px 40px;
-  text-decoration: none;
-  border: 1px solid #fcc200;
-}
-.wood .product-details a:hover,
-.limpio .product-details a:hover {
-  color: #fcc200;
-  font-weight: 400;
-  background: transparent;
-}
-@media (max-width: 575.98px) {
-  .img-home .img-text {
-    font-size: 20px;
-    top: 15%;
-  }
-  .row .logo img {
-    left: 53%;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-</style>

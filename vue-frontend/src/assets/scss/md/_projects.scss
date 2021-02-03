@@ -1,34 +1,64 @@
-.project{
-    
+.project-img img {
+  border-radius: $mainBorderRaduis+10;
+  display: block;
+  margin: 0px auto;
+  width: 95%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.project-details .project-title {
+  color: $mainColor;
+  font-size: 16px;
+  font-weight: 600;
+}
+.project-details .project-definition {
+  color: $mainTextColor;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.project-details .project-available {
+  color: $mainTextColor;
+  font-size: 18px;
+  font-weight: 600;
+}
+.project-details .project-btn a {
+  color: $mainTextColorBtn;
+  background-color: $mainColor;
+  border: 1px solid $mainColor;
+  border-radius: $mainBorderRaduis;
+  box-shadow: $mainBoxShadow;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px 35px;
+}
+.project-details .project-btn a:hover {
+  color: $mainColor;
+  background-color: transparent;
+}
 
-    .project-title{
-        text-align: center;
-        color: $mainColor;
-        margin: 50px 0;
-    }
+.project-main {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.project-image img {
+  width: 100%;
+  margin: 15px auto;
+  border-radius: $mainBorderRaduis+10;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
 
+.project-image .img-6 {
+  width: 60%;
+  display: block;
+  margin: 15px auto;
+}
 
-    .project-pic{
-        padding: 0 10% 10% 0;
-        width: 100%;
-
-
-    }
-
-    .project-images{
-        .project-image{
-
-            padding: 1% 1% 1% 1%;
-            img{
-                border-radius: 25px;
-                padding: 0;
-                width: 100%;
-                //box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
-
-
-            }
-            
-        }
-    }
+iframe {
+  border-radius: $mainBorderRaduis;
+  width: 100%;
+  margin: 50px auto;
+  display: block;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }

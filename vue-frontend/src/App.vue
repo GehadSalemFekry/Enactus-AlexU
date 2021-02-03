@@ -1,30 +1,28 @@
 <template>
   <div id="app">
-    <!-- <Sidebar msg="Welcome to Your Vue.js App" /> -->
+    <SidebarTest />
+    <Circles />
+    <Logo />
     <Language />
-    <Wood/>
+    <Up />
   </div>
 </template>
 
 <script>
-// import Sidebar from "./components/Sidebar.vue";
-import Language from "./components/Language";
-//import Circles from "./components/Circles";
-//import TwoCircles from "./components/TwoCircles";
-//import TwoCirclesRotated from "./components/TwoCirclesRotated";
-//import Home from "./pages/Home";
-import Wood from "./pages/WoodProject";
+import SidebarTest from "./components/SidebarTest";
+import Circles from './components/Circles';
+import Logo from './components/Logo';
+import Up from './components/Up';
+import Language from './components/Language';
 
 export default {
   name: "App",
   components: {
-    //Sidebar,
+    SidebarTest,
+    Circles,
+    Logo,
+    Up,
     Language,
-    Wood,
-    //Circles,
-    //TwoCircles,
-    //TwoCirclesRotated,
-    //Home,
   },
 };
 </script>

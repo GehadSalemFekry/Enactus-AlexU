@@ -13,7 +13,7 @@
                     <label for="pwd">Password:</label>
                     <input type="password" name="pwd" placeholder="eg. X0df!dl3SF" class="input">
                 </div>
-                 
+                
                 <a href="#" class="form-link form-forget">Forgot Password?</a>
                 <div class="form-element">
                     <input type="submit" name="submit" value="Login now" class="submit-button input">
@@ -27,10 +27,7 @@
 
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
 <style lang="en">
-    
 </style>

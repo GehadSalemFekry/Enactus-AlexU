@@ -1,4 +1,4 @@
-<template>
+<template lang="en">
   <a href="#" class="lang display-5"> Ar </a>
 </template>
 
@@ -20,8 +20,8 @@
 }
 @media (max-width: 575.98px) {
 .lang {
-  padding: 5px 10px;
-  font-size: 10px;
+  padding: 6px 12px;
+  font-size: 12px;
 }
 }
 </style>

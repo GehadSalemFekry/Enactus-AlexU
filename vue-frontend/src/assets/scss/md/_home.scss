@@ -1,0 +1,57 @@
+.img-home {
+  width: 100%;
+  height: auto;
+}
+.img-home img {
+  width: 100%;
+}
+
+.img-home .img-text {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: 900;
+}
+.img-home .img-text span {
+  color: #fcc200;
+}
+.heading {
+  color: #fcc200;
+  font-size: 30px;
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+}
+.product hr,.about hr,.gallery hr,.project hr {
+  width: 25%;
+}
+.about .heading-details,
+.about p {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.icon img {
+  margin-bottom: 40px;
+}
+.gray-section {
+  background: #ddd;
+}
+.row .logo {
+  position: absolute;
+}
+.row .logo img {
+  position: relative;
+  bottom: 165px;
+  left: 350%;
+  width: 150px;
+}
+.white-section {
+  padding: 70px 0px;
+  margin-top: 75px;
+  background-color: #fff;
+}

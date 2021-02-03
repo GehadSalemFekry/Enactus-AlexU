@@ -8,22 +8,29 @@
 @import "md/sidebar";
 @import "md/forms";
 @import "md/projects";
-
+@import "md/joinus";
+@import "md/products";
+@import "md/home";
+@import "md/gallery";
 
 body {
-    //background-color: $mainBackgroundColor;
-    font-family: "Poppins", sans-serif;
-    color: $mainTextColor;
+  font-family: "Poppins", sans-serif;
+  color: $mainTextColor;
+  background-color: $mainBackgroundColor;
+  cursor: default;
+}
+html {
+  scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #a7a7a7;
+  background: #a7a7a7;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: $mainColor;
+  background: $mainColor;
 }
