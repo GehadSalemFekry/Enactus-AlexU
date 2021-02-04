@@ -39,7 +39,9 @@
                 </div>
                     
                 <div>
-                    <p class="form-end">Have an account? <a href="#" class="form-link">Click here</a></p>
+                    <p class="form-end">Have an account? 
+                        <router-link to="login" class="form-link">Click here</router-link>
+                    </p>
                 </div>
             </form>
             </div>

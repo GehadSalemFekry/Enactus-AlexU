@@ -18,7 +18,7 @@
           <br />social innovators.
         </p>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4 col-sm-12">
             <div class="icon">
               <img
                 class="mx-auto d-block"
@@ -32,7 +32,7 @@
             </p>
           </div>
 
-          <div class="col-sm-4">
+          <div class="col-md-4 col-sm-12">
             <div class="icon">
               <img
                 class="mx-auto d-block"
@@ -46,7 +46,7 @@
             </p>
           </div>
 
-          <div class="col-sm-4">
+          <div class="col-md-4 col-sm-12">
             <div class="icon">
               <img
                 class="mx-auto d-block"
@@ -70,14 +70,14 @@
             <img src="../assets/img/about-logo.png" />
           </div>
 
-          <div class="col-6">
+          <div class="col-md-6 col-sm-12">
             <h2 class="text-center font-weight-bolder">VISION</h2>
             <p class="text-center">
               To create a better, more sustainable world
             </p>
           </div>
 
-          <div class="col-6">
+          <div class="col-md-6 col-sm-12">
             <h2 class="text-center font-weight-bolder">MISSION</h2>
             <p class="text-center">
               Engage the next generation of entrepreneurial leaders to use
@@ -96,28 +96,27 @@
             <hr />
           </div>
 
-          <div class="col-sm-6">
+          <div class="col-md-6 col-sm-12">
             <div class="wood">
               <img src="../assets/img/wood-product.png" />
               <div class="product-name">Wood Project</div>
               <div class="product-details">
-                <a href="/products/wood">Details</a>
+                <router-link to="/products/wood">Details</router-link>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-6">
+          <div class="col-md-6 col-sm-12">
             <div class="limpio">
               <img src="../assets/img/limpio-product.png" />
               <div class="product-name">Limpio Project</div>
               <div class="product-details">
-                <a href="/products/limpio">Details</a>
+                <router-link to="/products/limpio">Details</router-link>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <Language />
   </div>
 </template>

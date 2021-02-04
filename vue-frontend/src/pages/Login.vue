@@ -18,7 +18,9 @@
                 <div class="form-element">
                     <input type="submit" name="submit" value="Login now" class="submit-button input">
                 </div>
-                <p class="form-end">Don't have an account? <a href="#" class="form-link">Sign Up</a></p>   
+                <p class="form-end">Don't have an account? 
+                    <router-link to="signup" class="form-link">Sign Up</router-link>
+                </p>   
             </form>
             </div>
         </div>

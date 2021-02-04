@@ -1,28 +1,7 @@
 <template>
-  <div id="app">
-    <SidebarTest />
-    <Circles />
-    <Logo />
-    <Language />
-    <Up />
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
-import SidebarTest from "./components/SidebarTest";
-import Circles from './components/Circles';
-import Logo from './components/Logo';
-import Up from './components/Up';
-import Language from './components/Language';
-
-export default {
-  name: "App",
-  components: {
-    SidebarTest,
-    Circles,
-    Logo,
-    Up,
-    Language,
-  },
-};
+export default {};
 </script>
