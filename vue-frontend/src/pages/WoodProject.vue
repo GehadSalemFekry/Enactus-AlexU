@@ -60,8 +60,8 @@
           <div class="col-lg-4 col-md-6 col-sm-12 project-image"><img src="../assets/img/wood/wood(11).png"/></div>
           <div class="col-lg-4 col-md-6 col-sm-12 project-image"><img src="../assets/img/wood/wood(12).png"/></div>
 
-          <div class='col-12'>
-            <iframe width="1020" height="437" src="https://www.youtube.com/embed/Gx7ygHc_pPE" 
+          <div class="col-12">
+            <iframe width="1020" height="560" src="https://www.youtube.com/embed/Gx7ygHc_pPE" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
             gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
