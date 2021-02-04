@@ -41,6 +41,7 @@ hr {
   font-weight: 400;
   text-decoration: none;
   padding: 10px 35px;
+  transition: all 0.35s ease-in-out;
 }
 .join-details .join-btn a:hover {
   color: $mainColor;

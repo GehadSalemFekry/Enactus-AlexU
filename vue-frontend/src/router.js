@@ -4,8 +4,7 @@ import Router from "vue-router";
 import Sidebar from "./components/Sidebar.vue"
 //import Header from "./layout/Header.vue"
 
-//import Home from "./pages/home.vue";
-
+//import Home from "./pages/Home.vue";
 import Login from "./pages/Login.vue";
 import SignUp from "./pages/Signup.vue";
 import JoinUs from "./pages/JoinUs.vue";
@@ -13,7 +12,7 @@ import Teams from "./pages/Teams.vue";
 import Gallery from "./pages/Gallery.vue";
 import WoodProject from "./pages/WoodProject.vue";
 import LimpioProject from "./pages/LimpioProject.vue";
-import ContactUs from "./pages/ContactUs.vue";
+import ContactUs from "./pages/Contactus.vue";
 
 Vue.use(Router);
 
@@ -22,7 +21,7 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
+      name: "Home",
       components: {
         //header: Header,
         default: Sidebar,
@@ -33,7 +32,7 @@ export default new Router({
       path: "/teams",
       name: "Teams",
       components: {
-        header: Sidebar,
+        // header: Sidebar,
         default: Teams,
         //footer: AppFooter
       }
