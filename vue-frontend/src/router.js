@@ -12,7 +12,7 @@ import Teams from "./pages/Teams.vue";
 import Gallery from "./pages/Gallery.vue";
 import WoodProject from "./pages/WoodProject.vue";
 import LimpioProject from "./pages/LimpioProject.vue";
-import ContactUs from "./pages/Contactus.vue";
+import ContactUs from "./pages/ContactUs.vue";
 
 Vue.use(Router);
 
