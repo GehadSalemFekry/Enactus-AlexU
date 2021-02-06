@@ -43,10 +43,10 @@ Install VueCLI: https://cli.vuejs.org/guide/installation.html
 3. Create a new .env file: `cp .env.example .env`
 4. Add your own database credentials in the .env file in DB_DATABASE, DB_USERNAME, DB_PASSWORD
 5. Generate application key: `php artisan key:generate`
+6. Create users table: `php artisan migrate --seed`
+7. Install Laravel Passport: `php artisan passport:install`
 
-<!-- 5. Create users table: `php artisan migrate --seed` -->
-<!-- 7. Install Laravel Passport: `php artisan passport:install`
-8. Add your own mailtrap.io credentials in MAIL_USERNAME and MAIL_PASSWORD in the .env file -->
+<!-- 8. Add your own mailtrap.io credentials in MAIL_USERNAME and MAIL_PASSWORD in the .env file -->
 
 ## Vue Material Dashboard Project Installation
 
