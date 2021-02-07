@@ -4,15 +4,15 @@ import Router from "vue-router";
 import Sidebar from "./components/Sidebar.vue"
 //import Header from "./layout/Header.vue"
 
-//import Home from "./pages/Home.vue";
+import Home from "./pages/Home.vue";
 import Login from "./pages/Login.vue";
-import SignUp from "./pages/Signup.vue";
-import JoinUs from "./pages/JoinUs.vue";
+import Signup from "./pages/Signup.vue";
+import Joinus from "./pages/Joinus.vue";
+import Contactus from "./pages/Contactus.vue";
 import Teams from "./pages/Teams.vue";
 import Gallery from "./pages/Gallery.vue";
 import WoodProject from "./pages/WoodProject.vue";
 import LimpioProject from "./pages/LimpioProject.vue";
-import ContactUs from "./pages/ContactUs.vue";
 
 Vue.use(Router);
 
@@ -24,7 +24,7 @@ export default new Router({
       name: "Home",
       components: {
         //header: Header,
-        default: Sidebar,
+        default: Home,
         //footer: AppFooter
       }
     },
@@ -48,19 +48,19 @@ export default new Router({
     },
     {
       path: "/join",
-      name: "JoinUs",
+      name: "Joinus",
       components: {
         header: Sidebar,
-        default: JoinUs,
+        default: Joinus,
         //footer: AppFooter
       }
     },
     {
-      path: "/contactus",
-      name: "ContactUs",
+      path: "/Contactus",
+      name: "Contactus",
       components: {
         header: Sidebar,
-        default: ContactUs,
+        default: Contactus,
         //footer: AppFooter
       }
     },
@@ -71,18 +71,18 @@ export default new Router({
         header: Sidebar,
         default: Login,
         //footer: AppFooter
-      } 
+      }
     },
     {
-      path: "/signup",
-      name: "SignUp",
+      path: "/Signup",
+      name: "Signup",
       components: {
         header: Sidebar,
-        default: SignUp,
+        default: Signup,
         //footer: AppFooter
       }
     },
-    
+
     {
       path: "/products/wood",
       name: "WoodProject",
@@ -102,8 +102,8 @@ export default new Router({
       }
     },
   ],
- 
-  
+
+
   scrollBehavior: to => {
     if (to.hash) {
       return { selector: to.hash };
