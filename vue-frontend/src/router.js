@@ -4,6 +4,7 @@ import Router from "vue-router";
 //Components
 // import Logo from "./components/Logo.vue"
 import Sidebar from "./components/Sidebar.vue"
+import Loading from "./components/Loading.vue"
 // import Language from "./components/Language.vue"
 // import Up from "./components/Up.vue"
 // import Circles from "./components/Circles.vue"
@@ -30,9 +31,9 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "Sidebar",
+      name: "Loading",
       components: {
-        default: Sidebar
+        default: Loading,Sidebar,Home
       }
     },
     {
