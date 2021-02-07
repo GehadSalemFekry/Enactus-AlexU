@@ -1,6 +1,14 @@
 /* FontAwesome for working BootSnippet :> */
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    background-color: #eee;
+    scroll-behavior: smooth;
+    scroll-snap-align: unset;
+
+}
+
+
 #team {
     background: #eee !important;
 }
@@ -26,13 +34,21 @@ section {
 section .section-title {
     text-align: center;
     color: gold;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     text-transform: uppercase;
+    border-left: 5px solid gold;
+    background-color: rgba(218, 220, 103, 0.219);
+    
+    font-size: 32px; 
+
 }
+
+
+.card-text{color: black;}
 
 #team .card {
     border: none;
-    background: #ffffff;
+    background: #EEE;
 }
 
 .image-flip:hover .backside,
@@ -78,7 +94,7 @@ section .section-title {
     position: absolute;
     top: 0;
     left: 0;
-    background: white;
+    background:white;
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
@@ -126,28 +142,122 @@ section .section-title {
     color: black !important;
 }
 
+
 .frontside .card .card-body img {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 
-@media (max-width: 575.98px) { 
+
+/* Content Style */
+
+
+p {
+    color: #fff
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #fff
+}
+
+@media (max-width:767px) {
+    h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+
+.people {
+    padding: 50px 0;
+    cursor: pointer
+}
+
+.item {
+    margin-bottom: 30px
+}
+
+.item .box {
+    text-align: center;
+    height: 280px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
     
- }
+    // border-radius: 12%;
+}
+.mem-img
+{
+    position: relative;
+    width:100%;
+    height:100%;
 
-@media (min-width: 576px) and (max-width: 767.98px) { 
+}
 
 
- }
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 255, 16, 0.85);
+    transition: opacity 0.25s ease-in;
+    opacity: 0;
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    
-    
- }
+.item:hover .cover {
+    opacity: 1
+}
 
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    
+.item .name {
+    font-weight: bold;
+    margin-bottom: 8px
+}
 
- }
+.item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 20px
+}
+.list-title{
+    font-weight: bold;
+    color: white;
+}
+.d-list{
+    margin-bottom:10px;
+}
+.d-list li{
+    list-style: none;
+line-height: normal;
+text-align: center;
+}
+.social {
+    font-size: 18px
+}
+
+.cover .social a {
+    color: whitesmoke !important;
+    margin: 0 10px;
+    opacity: 0.8
+ 
+}
+
+
+.cover .social a:hover {
+    opacity: 1;
+    color: white;
+}
