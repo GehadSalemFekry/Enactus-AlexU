@@ -1,4 +1,4 @@
-<template lang="en">
+<template lang="en"> 
   <div>
     <b-button v-b-toggle.sidebar class="sidebar-btn"></b-button>
   

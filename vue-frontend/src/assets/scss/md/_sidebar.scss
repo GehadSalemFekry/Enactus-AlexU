@@ -7,22 +7,6 @@
         color: $mainTextColorBtn;
         margin-top: 0;
         box-shadow: none;
-
-        .sidebar-close {
-            color: #fff;
-            background-color: $mainColor;
-            text-transform: uppercase;
-            border-radius: 10px;
-            border: 1px solid $mainColor;
-            font-weight: 500;
-            width: 65px;
-            position: relative;
-            left: 80px;
-            &:hover {
-                color: $mainColor;
-                background-color: transparent;
-            }
-        }
     }
 
     .b-sidebar-body {
@@ -31,7 +15,6 @@
 }
 
 #sidebar {
-    width: 260px;
     box-shadow: 3px 3px 3px #00000010;
 
     .sidebar-top {
@@ -40,18 +23,19 @@
 
         .logo {
             display: block;
-            margin: auto;
+            margin: 0px auto 10px auto;
             width: 90%;
             padding: 15px;
+            height: 65%;
 
             img {
                 width: 100%;
-                height: 100%;
+                height: auto;
             }
         }
 
         .sign-btns {
-            background-color: #222;
+            height: 30%;
 
             .btn-signup,
             .btn-signin {
@@ -112,18 +96,6 @@
 
         .active {
             color: $sidebarActiveColor;
-
-            &::before {
-                content: " ";
-                position: absolute;
-                width: 60px;
-                background: #fcc200;
-                color: #fcc200;
-                height: 5px;
-                border-radius: 5px;
-                left: -30px;
-                top: 255px;
-            }
         }
     }
 
@@ -171,9 +143,6 @@
         background-color: $mainColor !important;
         box-shadow: 3px 3px 3px #00000015 !important;
     }
-    img {
-        height: 25px;
-    }
 }
 
 .collapsed {
@@ -185,6 +154,41 @@
 }
 
 @media (max-width: 575.98px) {
+    #sidebar .sidebar-top .logo {
+        margin: 0px auto;
+        width: 90%;
+        height: 70%;
+    }
+    .sidebar-btn {
+        padding: 20px 15px;
+    }
+    .collapsed,
+    .not-collapsed {
+        background-size: 10px;
+    }
+    #sidebar .sidebar-content .side-link {
+        margin: 40px auto;
+    }
+    #sidebar .sidebar-top {
+        height: 27%;
+    }
+}
+
+@media (max-width: 400px) {
+    #sidebar .sidebar-top .logo {
+        margin: 0px auto 20px auto;
+        width: 75%;
+        height: 60%;
+    }
+    .sign-btns a {
+        font-size: 13px;
+    }
+    #sidebar .sidebar-content .side-link {
+        margin: 20px auto;
+    }
+    #sidebar .sidebar-top {
+        height: 34%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

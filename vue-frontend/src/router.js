@@ -33,7 +33,7 @@ export default new Router({
       path: "/",
       name: "Loading",
       components: {
-        default: Loading,Sidebar,Home
+        default: Sidebar, Home, Loading,
       }
     },
     {
