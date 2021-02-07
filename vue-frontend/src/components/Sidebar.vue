@@ -1,17 +1,9 @@
 <template lang="en">
   <div>
-    <b-button v-b-toggle.sidebar class="open-sidebar">
-      <img src="..\assets\img\arrow-r.png" alt="" />
-    </b-button>
+    <b-button v-b-toggle.sidebar class="sidebar-btn"></b-button>
   
     <b-sidebar id="sidebar" no-header>
-      <template #footer="{ hide }">
-       <div class="px-3 py-2">
-        <b-button size="sm" @click="hide" class="sidebar-close">Close</b-button>
-       </div>
-      </template>
-      <div class="sidebar">
-        <div class="sidebar-top">
+          <div class="sidebar-top">
           <div class="logo">
             <img src="..\assets\img\enactus-logo.png" alt="" />
           </div>
@@ -34,12 +26,11 @@
             <h5>Social Media</h5>
           </div>
           <div class="social-icons">
-            <a class="facebook" href="#"><img src="..\assets\img\facebook.png"/></a>
-            <a class="twitter" href="#"><img src="..\assets\img\twitter.png"/></a>
-            <a class="instagram" href="#"><img src="..\assets\img\instagram.png"/></a>
-            <a class="linkedin" href="#"><img src="..\assets\img\linkedin.png"/></a>
+            <a class="facebook" href="https://www.facebook.com/EnactusAlexandriaUniversity/" target="_blank"><img src="..\assets\img\facebook.png"/></a>
+            <a class="twitter" href="https://www.youtube.com/channel/UCmU_Jav9vR_ho0MwD-xqV_A/featured?view_as=public" target="_blank"><img src="..\assets\img\twitter.png"/></a>
+            <a class="instagram" href="https://www.instagram.com/enactus_alex/" target="_blank"><img src="..\assets\img\instagram.png"/></a>
+            <a class="linkedin" href="https://www.linkedin.com/company/enactusalexu" target="_blank"><img src="..\assets\img\linkedin.png"/></a>
           </div>
-        </div>
       </div>
     </b-sidebar>
   </div>

@@ -21,22 +21,21 @@
             &:hover {
                 color: $mainColor;
                 background-color: transparent;
-            } 
+            }
         }
     }
 
     .b-sidebar-body {
         background-color: $GreyBackgroundColor;
     }
-    
 }
 
-.sidebar {
+#sidebar {
     width: 260px;
     box-shadow: 3px 3px 3px #00000010;
 
     .sidebar-top {
-        height: 210px;
+        height: 32%;
         background-color: $WhiteBackgroundColor;
 
         .logo {
@@ -54,7 +53,8 @@
         .sign-btns {
             background-color: #222;
 
-            .btn-signup, .btn-signin {
+            .btn-signup,
+            .btn-signin {
                 text-align: center;
                 text-transform: uppercase;
                 text-decoration: none;
@@ -88,13 +88,14 @@
                 &:hover {
                     color: $mainColor;
                     background-color: transparent;
-                }                
+                }
             }
         }
     }
 
     .sidebar-content {
         padding: 15px 50px;
+        height: 50%;
 
         .side-link {
             display: block;
@@ -104,13 +105,14 @@
             color: $sidebarTextColor;
             margin: 20px 0px;
             font-weight: 500;
-
-        
+            &:hover {
+                color: $sidebarActiveColor;
+            }
         }
 
         .active {
             color: $sidebarActiveColor;
-        
+
             &::before {
                 content: " ";
                 position: absolute;
@@ -127,11 +129,9 @@
 
     .sidebar-bottom {
         color: $mainColor;
-        height: 20%;
+        height: 15%;
         font-weight: 900;
         text-align: center;
-        padding: 20px 0;
-        margin-bottom: 9px;
 
         .social-heading {
             text-transform: uppercase;
@@ -143,15 +143,14 @@
                 width: 55px;
                 height: auto;
             }
-        }   
+        }
     }
 }
 
-
-
-.open-sidebar , .close-sidebar {
+.sidebar-btn {
     background-color: $mainColor;
-    padding: 15px;
+    padding: 28px 22px;
+    border-radius: 0px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     outline: none;
@@ -160,20 +159,44 @@
     font-size: 20px;
     font-weight: 900;
     position: fixed;
-    left: -2px;
-    bottom: 45%;
+    left: 260px;
+    bottom: 55%;
     box-shadow: 3px 3px 3px #00000015;
-
-    &:hover {
-        background-color: $GreyBackgroundColor;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    &:hover,
+    &:focus {
+        background-color: $mainColor !important;
+        box-shadow: 3px 3px 3px #00000015 !important;
     }
-
     img {
-        height: 35px;
-        
+        height: 25px;
     }
 }
 
-.close-sidebar {
-    left: 257px;
+.collapsed {
+    background-image: url(../img/arrow-r.png);
+    left: -2px;
+    outline: none !important;
+    animation: all 3s ease-in-out;
+    &::selection{
+    left: 260px;
+    animation: all 3s ease-in-out;
+    }
+}
+.not-collapsed {
+    background-image: url(../img/arrow-l.png);
+}
+
+@media (max-width: 575.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
 }

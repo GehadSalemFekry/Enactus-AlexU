@@ -1,18 +1,27 @@
 import Vue from "vue";
 import Router from "vue-router";
 
+//Components
+// import Logo from "./components/Logo.vue"
 import Sidebar from "./components/Sidebar.vue"
-//import Header from "./layout/Header.vue"
+// import Language from "./components/Language.vue"
+// import Up from "./components/Up.vue"
+// import Circles from "./components/Circles.vue"
+// import TwoCircles from "./components/TwoCircles.vue"
+// import TwoCirclesRotated from "./components/TwoCirclesRotated.vue"
+// import Header from "./layout/Header.vue"
 
-//import Home from "./pages/Home.vue";
+//Pages
+// import Header from "./layout/Header.vue";
+import Home from "./pages/Home.vue";
 import Login from "./pages/Login.vue";
-import SignUp from "./pages/Signup.vue";
-import JoinUs from "./pages/JoinUs.vue";
+import Signup from "./pages/Signup.vue";
+import Joinus from "./pages/Joinus.vue";
+import Contactus from "./pages/Contactus.vue";
 import Teams from "./pages/Teams.vue";
 import Gallery from "./pages/Gallery.vue";
 import WoodProject from "./pages/WoodProject.vue";
 import LimpioProject from "./pages/LimpioProject.vue";
-import ContactUs from "./pages/Contactus.vue";
 
 Vue.use(Router);
 
@@ -21,89 +30,71 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "Home",
+      name: "Sidebar",
       components: {
-        //header: Header,
-        default: Sidebar,
-        //footer: AppFooter
+        default: Sidebar
       }
     },
     {
       path: "/teams",
       name: "Teams",
       components: {
-        // header: Sidebar,
         default: Teams,
-        //footer: AppFooter
       }
     },
     {
       path: "/gallery",
       name: "Gallery",
       components: {
-        header: Sidebar,
         default: Gallery,
-        //footer: AppFooter
       }
     },
     {
       path: "/join",
-      name: "JoinUs",
+      name: "Joinus",
       components: {
-        header: Sidebar,
-        default: JoinUs,
-        //footer: AppFooter
+        default: Joinus,
       }
     },
     {
       path: "/contactus",
-      name: "ContactUs",
+      name: "Contactus",
       components: {
-        header: Sidebar,
-        default: ContactUs,
-        //footer: AppFooter
+        default: Contactus,
       }
     },
     {
       path: "/login",
       name: "Login",
       components: {
-        header: Sidebar,
         default: Login,
-        //footer: AppFooter
-      } 
+      }
     },
     {
       path: "/signup",
-      name: "SignUp",
+      name: "Signup",
       components: {
-        header: Sidebar,
-        default: SignUp,
-        //footer: AppFooter
+        default: Signup,
       }
     },
-    
+
     {
       path: "/products/wood",
       name: "WoodProject",
       components: {
-        header: Sidebar,
         default: WoodProject,
-        //footer: AppFooter
       }
     },
     {
       path: "/products/limpio",
       name: "LimpioProject",
       components: {
-        header: Sidebar,
         default: LimpioProject,
-        //footer: AppFooter
       }
     },
   ],
- 
-  
+
+
   scrollBehavior: to => {
     if (to.hash) {
       return { selector: to.hash };

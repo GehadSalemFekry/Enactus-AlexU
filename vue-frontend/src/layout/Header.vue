@@ -1,13 +1,17 @@
 <template lang="en">
-    <header>
-       <Sidebar />
-    </header>
+  <div>
+    <Sidebar />
+    <Language />
+  </div>
 </template>
+
 <script>
+import Language from "./components/Language.vue";
+import Sidebar from "./components/Sidebar.vue";
+
 export default {
-    
-}
-</script>
-<style lang="en">
-    
-</style>
+  components: {
+    language: Language,
+    Sidebar: Sidebar,
+  },
+};

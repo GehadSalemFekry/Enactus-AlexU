@@ -51,7 +51,7 @@
           <div class="col-md-6 col-sm-12 project-image"><img class='img-6' src="../assets/img/limpio/limpio(11).png"/></div>
 
           <div class='col-12'>
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/4F5ZpSBxtWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1020" height="560" src="https://www.youtube.com/embed/4F5ZpSBxtWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
         </div>
