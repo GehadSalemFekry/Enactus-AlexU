@@ -14,7 +14,7 @@
         </div>
 
         <div class="sidebar-content">
-          <router-link to="/" class="side-link active">Home</router-link>
+          <router-link to="/" class="side-link">Home</router-link>
           <router-link to="/teams" class="side-link">Teams</router-link>
           <router-link to="/gallery" class="side-link">Gallery</router-link>
           <router-link to="/join" class="side-link">Join Us</router-link>
