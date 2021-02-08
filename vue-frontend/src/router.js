@@ -1,15 +1,17 @@
 import Vue from "vue";
 import Router from "vue-router";
 
-import Home from "./pages/Home.vue";
-import Login from "./pages/Login.vue";
-import Signup from "./pages/Signup.vue";
-import Joinus from "./pages/Joinus.vue";
-import Contactus from "./pages/Contactus.vue";
-import Teams from "./pages/Teams.vue";
-import Gallery from "./pages/Gallery.vue";
-import WoodProject from "./pages/WoodProject.vue";
-import LimpioProject from "./pages/LimpioProject.vue";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import Joinus from "./pages/Joinus";
+import Contactus from "./pages/Contactus";
+import Teams from "./pages/Teams";
+import Gallery from "./pages/Gallery";
+import WoodProject from "./pages/WoodProject";
+import LimpioProject from "./pages/LimpioProject";
+
+import BlogArticle from "./components/BlogArticle";
 
 Vue.use(Router);
 
@@ -18,49 +20,49 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "Home",
+      name: "home",
       components: {
         default: Home,
       }
     },
     {
       path: "/teams",
-      name: "Teams",
+      name: "team",
       components: {
         default: Teams,
       }
     },
     {
       path: "/gallery",
-      name: "Gallery",
+      name: "gallery",
       components: {
         default: Gallery,
       }
     },
     {
       path: "/join",
-      name: "Joinus",
+      name: "joinus",
       components: {
         default: Joinus,
       }
     },
     {
-      path: "/Contactus",
-      name: "Contactus",
+      path: "/contactus",
+      name: "contactus",
       components: {
         default: Contactus,
       }
     },
     {
       path: "/login",
-      name: "Login",
+      name: "login",
       components: {
         default: Login,
       }
     },
     {
-      path: "/Signup",
-      name: "Signup",
+      path: "/signup",
+      name: "signup",
       components: {
         default: Signup,
       }
@@ -68,16 +70,23 @@ export default new Router({
 
     {
       path: "/products/wood",
-      name: "WoodProject",
+      name: "woodProject",
       components: {
         default: WoodProject,
       }
     },
     {
       path: "/products/limpio",
-      name: "LimpioProject",
+      name: "limpioProject",
       components: {
         default: LimpioProject,
+      }
+    },
+    {
+      path: "/blog/:id",
+      name: "blogArticle",
+      components: {
+        default: BlogArticle,
       }
     },
   ],

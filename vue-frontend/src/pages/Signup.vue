@@ -40,7 +40,7 @@
                     
                 <div>
                     <p class="form-end">Have an account? 
-                        <router-link to="login" class="form-link">Click here</router-link>
+                        <router-link :to="{ name: 'login'}" class="form-link">Click here</router-link>
                     </p>
                 </div>
             </form>

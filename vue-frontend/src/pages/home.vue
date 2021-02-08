@@ -101,7 +101,7 @@
               <img src="../assets/img/wood-product.png" />
               <div class="product-name">Wood Project</div>
               <div class="product-details">
-                <router-link to="/products/wood">Details</router-link>
+                <router-link :to="{ name: 'woodProject'}">Details</router-link>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@
               <img src="../assets/img/limpio-product.png" />
               <div class="product-name">Limpio Project</div>
               <div class="product-details">
-                <router-link to="/products/limpio">Details</router-link>
+                <router-link :to="{ name: 'limpioProject'}">Details</router-link>
               </div>
             </div>
           </div>

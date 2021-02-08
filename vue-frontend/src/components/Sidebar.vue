@@ -8,17 +8,17 @@
             <img src="..\assets\img\enactus-logo.png" alt="" />
           </div>
           <div class="sign-btns">
-            <router-link to="/signup" class="btn-signup">Sign Up</router-link>
-            <router-link to="/login" class="btn-signin">Log In</router-link>
+            <router-link :to="{ name: 'signup'}" class="btn-signup">Sign Up</router-link>
+            <router-link :to="{ name: 'login'}" class="btn-signin">Log In</router-link>
           </div>
         </div>
 
         <div class="sidebar-content">
-          <router-link to="/" class="side-link">Home</router-link>
-          <router-link to="/teams" class="side-link">Teams</router-link>
-          <router-link to="/gallery" class="side-link">Gallery</router-link>
-          <router-link to="/join" class="side-link">Join Us</router-link>
-          <router-link to="/contactus" class="side-link">Contact Us</router-link>
+          <router-link :to="{ name: 'home'}" class="side-link">Home</router-link>
+          <router-link :to="{ name: 'team'}" class="side-link">Teams</router-link>
+          <router-link :to="{ name: 'gallery'}" class="side-link">Gallery</router-link>
+          <router-link :to="{ name: 'joinus'}" class="side-link">Join Us</router-link>
+          <router-link :to="{ name: 'contactus'}" class="side-link">Contact Us</router-link>
         </div>
 
         <div class="sidebar-bottom">

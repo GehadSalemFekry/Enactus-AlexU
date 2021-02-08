@@ -19,7 +19,7 @@
                     <input type="submit" name="submit" value="Login now" class="submit-button input">
                 </div>
                 <p class="form-end">Don't have an account? 
-                    <router-link to="signup" class="form-link">Sign Up</router-link>
+                    <router-link :to="{ name: 'signup'}" class="form-link">Sign Up</router-link>
                 </p>   
             </form>
             </div>
