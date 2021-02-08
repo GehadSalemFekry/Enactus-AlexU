@@ -4,7 +4,6 @@
     <Language />
     <Up />
     <router-view />
-    
   </div>
 </template>
 
