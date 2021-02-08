@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import Language from "./components/Language.vue";
-import Sidebar from "./components/Sidebar.vue";
-import Up from "./components/Up.vue";
+import Language from "./components/Language"
+import Sidebar from "./components/Sidebar"
+import Up from "./components/Up"
 
 export default {
   components: {
