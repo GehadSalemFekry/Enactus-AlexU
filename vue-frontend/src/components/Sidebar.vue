@@ -17,6 +17,7 @@
           <router-link :to="{ name: 'home'}" class="side-link">Home</router-link>
           <router-link :to="{ name: 'team'}" class="side-link">Teams</router-link>
           <router-link :to="{ name: 'gallery'}" class="side-link">Gallery</router-link>
+          <router-link :to="{ name: 'products'}" class="side-link">Products</router-link>
           <router-link :to="{ name: 'joinus'}" class="side-link">Join Us</router-link>
           <router-link :to="{ name: 'contactus'}" class="side-link">Contact Us</router-link>
         </div>
@@ -26,10 +27,10 @@
             <h5>Social Media</h5>
           </div>
           <div class="social-icons">
-            <a class="facebook" href="https://www.facebook.com/EnactusAlexandriaUniversity/" target="_blank"><img src="..\assets\img\facebook.png"/></a>
-            <a class="twitter" href="https://www.youtube.com/channel/UCmU_Jav9vR_ho0MwD-xqV_A/featured?view_as=public" target="_blank"><img src="..\assets\img\twitter.png"/></a>
-            <a class="instagram" href="https://www.instagram.com/enactus_alex/" target="_blank"><img src="..\assets\img\instagram.png"/></a>
-            <a class="linkedin" href="https://www.linkedin.com/company/enactusalexu" target="_blank"><img src="..\assets\img\linkedin.png"/></a>
+            <a class="facebook" href="https://www.facebook.com/EnactusAlexandriaUniversity/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="youtube" href="https://www.youtube.com/channel/UCmU_Jav9vR_ho0MwD-xqV_A/featured?view_as=public" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a class="instagram" href="https://www.instagram.com/enactus_alex/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="linkedin" href="https://www.linkedin.com/company/enactusalexu" target="_blank"><i class="fab fa-linkedin-in"></i></a>
           </div>
       </div>
     </b-sidebar>

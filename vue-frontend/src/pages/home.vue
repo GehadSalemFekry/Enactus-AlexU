@@ -1,12 +1,13 @@
 <template lang="en">
   <div>
     <div class="img-home">
-      <img src="../assets/img/home.jpg" />
+      <img src="../assets/img/home.gif" />
       <div class="img-text">
         TODAY'S <span>LEADERS</span> .. <br />
         TOMORROW'S <span>CHANGERS</span>
       </div>
     </div>
+
     <div class="container">
       <div class="about">
         <h1 class="heading">Enactus Alexandria</h1>
@@ -17,6 +18,7 @@
           while developing the next generation of entrepreneurial leaders and
           <br />social innovators.
         </p>
+
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <div class="icon">
@@ -62,22 +64,25 @@
         </div>
       </div>
     </div>
-
     <div class="white-section">
       <div class="container">
         <div class="row">
-          <div class="logo">
-            <img src="../assets/img/about-logo.png" />
-          </div>
 
-          <div class="col-md-6 col-sm-12">
+
+          <div class="col-md-5 col-sm-12">
             <h2 class="text-center font-weight-bolder">VISION</h2>
             <p class="text-center">
               To create a better, more sustainable world
             </p>
           </div>
 
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-2 col-sm-12">
+            <div class="logo">
+              <img src="../assets/img/about-logo.png" />
+            </div>
+          </div>  
+
+          <div class="col-md-5 col-sm-12">
             <h2 class="text-center font-weight-bolder">MISSION</h2>
             <p class="text-center">
               Engage the next generation of entrepreneurial leaders to use
@@ -87,36 +92,6 @@
         </div>
       </div>
     </div>
-
-    <div class="product">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="heading">Product</h1>
-            <hr />
-          </div>
-
-          <div class="col-md-6 col-sm-12">
-            <div class="wood">
-              <img src="../assets/img/wood-product.png" />
-              <div class="product-name">Wood Project</div>
-              <div class="product-details">
-                <router-link :to="{ name: 'woodProject'}">Details</router-link>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-sm-12">
-            <div class="limpio">
-              <img src="../assets/img/limpio-product.png" />
-              <div class="product-name">Limpio Project</div>
-              <div class="product-details">
-                <router-link :to="{ name: 'limpioProject'}">Details</router-link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </template>

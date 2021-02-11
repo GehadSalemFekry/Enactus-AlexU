@@ -1,5 +1,5 @@
 .project-img img {
-  border-radius: $mainBorderRaduis+10;
+  border-radius: $mainBorderRaduis + 10;
   display: block;
   margin: 0px auto;
   width: 95%;
@@ -45,7 +45,7 @@
 .project-image img {
   width: 100%;
   margin: 15px auto;
-  border-radius: $mainBorderRaduis+10;
+  border-radius: $mainBorderRaduis + 10;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
@@ -63,22 +63,20 @@ iframe {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-@media (max-width: 575.98px) { 
-    
-    
- }
+@media (max-width: 575.98px) {
+  .project-image .img-6 {
+    width: 100%;
+  }
+  .project-details .project-title{
+    margin-top: 20px;
+  }
+}
 
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
 
- }
-
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    
-    
- }
-
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    
-
- }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}

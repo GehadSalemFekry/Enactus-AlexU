@@ -6,7 +6,8 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Joinus from "./pages/Joinus";
 import Contactus from "./pages/Contactus";
-import Teams from "./pages/Teams";
+import Team from "./pages/Team";
+import Products from "./pages/Products";
 import Gallery from "./pages/Gallery";
 import WoodProject from "./pages/WoodProject";
 import LimpioProject from "./pages/LimpioProject";
@@ -19,6 +20,14 @@ export default new Router({
   linkExactActiveClass: "active",
   routes: [
     {
+      //For Language Component
+      path: "/ar",
+      name: "ar",
+      components: {
+        default: Home,
+      }
+    },
+    {
       path: "/",
       name: "home",
       components: {
@@ -26,10 +35,10 @@ export default new Router({
       }
     },
     {
-      path: "/teams",
+      path: "/team",
       name: "team",
       components: {
-        default: Teams,
+        default: Team,
       }
     },
     {
@@ -37,6 +46,13 @@ export default new Router({
       name: "gallery",
       components: {
         default: Gallery,
+      }
+    },
+    {
+      path: "/products",
+      name: "products",
+      components: {
+        default: Products,
       }
     },
     {
@@ -92,7 +108,7 @@ export default new Router({
   ],
 
 
-  mode : 'history',
+  mode: 'history',
   scrollBehavior: to => {
     if (to.hash) {
       return { selector: to.hash };

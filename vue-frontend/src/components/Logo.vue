@@ -9,11 +9,19 @@
 <style>
 .logo-div {
   position: absolute;
-  z-index: -99999;
+  z-index: 999;
   top: 5%;
 }
 .logo-div img {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 575.98px) {
+  .logo-div {
+    top: 2%;
+  }
+  .logo-div img {
+    width: 50%;
+  }
 }
 </style>

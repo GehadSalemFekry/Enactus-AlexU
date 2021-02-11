@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
 #sidebar {
     width: 260px;
 
@@ -110,10 +112,23 @@
         }
 
         .social-icons {
-            img {
-                padding: 10px;
-                width: 55px;
-                height: auto;
+            margin-top: 20px;
+            a {
+                margin: 0px 10px;
+            }
+            i {
+                font-size: 25px;
+                border: 2px solid $mainColor;
+                border-radius: $mainBorderRaduis;
+                color: $mainColor;
+                width: 40px;
+                height: 40px;
+                padding: 5px 0px;
+            }
+            :hover {
+                background-color: $mainColor;
+                color: #fff;
+                transform: rotate(1turn);
             }
         }
     }

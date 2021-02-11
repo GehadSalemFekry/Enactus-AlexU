@@ -66,7 +66,7 @@
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="#sectors">Apply Now</a>
+                          <a href="https://www.google.com/">Apply Now</a>
                         </div>
                       </div>
                     </div>
@@ -75,46 +75,33 @@
                       <h5 class="sector-heading">Responsibilities :</h5>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-12">
                       <div class="first-branch">
-                        <div class="branch-title">Designers</div>
+                        <!-- <div class="branch-title">HR</div> -->
                         <div class="branch-details">
-                          make designs such like "Flyers, Brochures, Banners
-                          etc" for the project and help social media for their
-                          demands. Marketing Marketing executives are involved
-                          in developing marketing campaigns to promote ideas.
-                          its a varied role that includes planning, advertising.
-                        </div>
-                      </div>
-                      <div class="second-branch">
-                        <div class="branch-title">Photographers</div>
-                        <div class="branch-details">
-                          Use a variety of photographic equipment to make
-                          pictorial records of people, events, and objects for
-                          the project.
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="col-sm-6">
-                      <div class="first-branch">
-                        <div class="branch-title">Video Editing</div>
-                        <div class="branch-details">
-                          Record Video footage and computer graphics and develop
-                          titles and motion graphics using software programs and
-                          dubbing video masters, writing scripts and creating
-                          video records.
-                        </div>
-                      </div>
-                      <div class="second-branch">
-                        <div class="branch-title">Social Media</div>
-                        <div class="branch-details">
-                          build and execute social media strategy through
-                          competitive research, platform determination,
-                          benchmarking, messaging, and audience identification
-                          and generate, edit, publish and share daily content
-                          that build meaning connections and encourages
-                          community members to take action.
+                          - Prepare evaluation templates for Enactus events &amp; projects &amp; member &amp; Head.<br><br>
+
+                          - Fill the database of committees.<br><br>
+
+                          - Cooperate with heads to hire and reward members and 
+                          Apply the system of  punishment and firing members.<br><br>
+
+                          - Cooperate with heads to specialize a time for workshops every meeting.<br><br>
+
+                          - Responsible for evaluate and motivate all members in his committee.<br><br>
+
+                          - Cooperate with committees' heads to make a good atmosphere of working.<br><br>
+
+                          - Evaluating the skills of different members by attending different 
+                          meetings in order to submit a report of the needed trainings (setting a development plan).<br><br>
+
+                          - Create profile for each member that includes their basic data, progress, 
+                          any  problems, punishments, rewards etc.<br><br>
+
+                          - Preparing monthly newsletters "report" and the Flash News "weekly" for the committees.
+                          Responsible for Team building in the committee, Member's performance and  motivation.<br><br>
+                          
                         </div>
                       </div>
                     </div>
@@ -126,15 +113,14 @@
                     <div class="col-sm-6">
                       <div class="first-question">
                         <div class="question-title">
-                          Sub criteria for marketing member :
+                          Sub criteria for HR member :
                         </div>
                         <ul class="question-details">
                           <li>Willing to learn.</li>
-                          <li>Communication skills.</li>
-                          <li>Negotiation &amp; Persuasion skills.</li>
-                          <li>Creativity</li>
-                          <li>Experts at social media.</li>
-                          <li>Know the basic of graphic design</li>
+                          <li>Know the basics of HR Management.</li>
+                          <li>Know how to use excel, Google drive and Google sheets.</li>
+                          <li>Problem Solving.</li>
+                          <li>Motivation, Communication.</li>
                         </ul>
                       </div>
                     </div>
@@ -143,10 +129,10 @@
                       <div class="first-question">
                         <div class="question-title">What would you learn :</div>
                         <ul class="question-details">
-                          <li>Advanced Graphic Design</li>
-                          <li>Advanced Photographing</li>
-                          <li>Advanced Videography</li>
-                          <li>Marketing</li>
+                          <li>Human resources management.</li>
+                          <li>How to form a personality.</li>
+                          <li>How you can be a real leader</li>
+                          <li>How to handle hard situations</li>
                         </ul>
                       </div>
                     </div>
@@ -181,7 +167,7 @@
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="#sectors">Apply Now</a>
+                          <a href="https://www.google.com/">Apply Now</a>
                         </div>
                       </div>
                     </div>
@@ -190,46 +176,31 @@
                       <h5 class="sector-heading">Responsibilities :</h5>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-12">
                       <div class="first-branch">
-                        <div class="branch-title">Designers</div>
+                        <!-- <div class="branch-title">HR</div> -->
                         <div class="branch-details">
-                          make designs such like "Flyers, Brochures, Banners
-                          etc" for the project and help social media for their
-                          demands. Marketing Marketing executives are involved
-                          in developing marketing campaigns to promote ideas.
-                          its a varied role that includes planning, advertising.
-                        </div>
-                      </div>
-                      <div class="second-branch">
-                        <div class="branch-title">Photographers</div>
-                        <div class="branch-details">
-                          Use a variety of photographic equipment to make
-                          pictorial records of people, events, and objects for
-                          the project.
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="col-sm-6">
-                      <div class="first-branch">
-                        <div class="branch-title">Video Editing</div>
-                        <div class="branch-details">
-                          Record Video footage and computer graphics and develop
-                          titles and motion graphics using software programs and
-                          dubbing video masters, writing scripts and creating
-                          video records.
-                        </div>
-                      </div>
-                      <div class="second-branch">
-                        <div class="branch-title">Social Media</div>
-                        <div class="branch-details">
-                          build and execute social media strategy through
-                          competitive research, platform determination,
-                          benchmarking, messaging, and audience identification
-                          and generate, edit, publish and share daily content
-                          that build meaning connections and encourages
-                          community members to take action.
+                          - Facilitating and Create relations between Enactus and other people outside (VIPs,  NGO's...etc.).<br><br>
+
+                          -  Providing media coverage for all the events and project (TV &amp; magazines).<br><br>
+
+                          - Providing key speakers if needed for all events.<br><br>
+
+                          - Handling booths outside to demonstrate the events.<br><br>
+
+                          - Providing professional trainers upon request of HR committee.<br><br>
+
+                          - Managing all relations with University administration,
+                            Reception students (including  approvals for sessions, 
+                            booths, info desks, campaigns, meeting, event, English club  etc.)<br><br>
+
+                          - Designing and building booths and info desks in universities 
+                            and dealing with public.  Facilitating the logistical work related to 
+                            the events and projects (materials, giveaways, t-shirts, flyers, banners... etc.) <br><br>
+                          
+                          - Organizing all events from A to Z   (training, outing... etc.).<br><br>
+
                         </div>
                       </div>
                     </div>
@@ -244,12 +215,11 @@
                           Sub criteria for marketing member :
                         </div>
                         <ul class="question-details">
-                          <li>Willing to learn.</li>
                           <li>Communication skills.</li>
                           <li>Negotiation &amp; Persuasion skills.</li>
-                          <li>Creativity</li>
-                          <li>Experts at social media.</li>
-                          <li>Know the basic of graphic design</li>
+                          <li>Presentation skills.</li>
+                          <li>Good at public speaking.</li>
+                          <li>Flexibility, Creativity.</li>
                         </ul>
                       </div>
                     </div>
@@ -258,10 +228,10 @@
                       <div class="first-question">
                         <div class="question-title">What would you learn :</div>
                         <ul class="question-details">
-                          <li>Advanced Graphic Design</li>
-                          <li>Advanced Photographing</li>
-                          <li>Advanced Videography</li>
-                          <li>Marketing</li>
+                          <li>How to be a real leader.</li>
+                          <li>How to deal with difficult characters.</li>
+                          <li>How to be excellent at public speaking.</li>
+                          <li>Advanced Soft skills.</li>
                         </ul>
                       </div>
                     </div>
@@ -296,7 +266,7 @@
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="#sectors">Apply Now</a>
+                          <a href="https://www.google.com/">Apply Now</a>
                         </div>
                       </div>
                     </div>
@@ -305,46 +275,21 @@
                       <h5 class="sector-heading">Responsibilities :</h5>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-12">
                       <div class="first-branch">
-                        <div class="branch-title">Designers</div>
+                        <!-- <div class="branch-title">HR</div> -->
                         <div class="branch-details">
-                          make designs such like "Flyers, Brochures, Banners
-                          etc" for the project and help social media for their
-                          demands. Marketing Marketing executives are involved
-                          in developing marketing campaigns to promote ideas.
-                          its a varied role that includes planning, advertising.
-                        </div>
-                      </div>
-                      <div class="second-branch">
-                        <div class="branch-title">Photographers</div>
-                        <div class="branch-details">
-                          Use a variety of photographic equipment to make
-                          pictorial records of people, events, and objects for
-                          the project.
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="col-sm-6">
-                      <div class="first-branch">
-                        <div class="branch-title">Video Editing</div>
-                        <div class="branch-details">
-                          Record Video footage and computer graphics and develop
-                          titles and motion graphics using software programs and
-                          dubbing video masters, writing scripts and creating
-                          video records.
-                        </div>
-                      </div>
-                      <div class="second-branch">
-                        <div class="branch-title">Social Media</div>
-                        <div class="branch-details">
-                          build and execute social media strategy through
-                          competitive research, platform determination,
-                          benchmarking, messaging, and audience identification
-                          and generate, edit, publish and share daily content
-                          that build meaning connections and encourages
-                          community members to take action.
+                          - The core of our entity.<br><br>
+
+                          - We assess the needs in our society and analyze possible 
+                            ideas to solve it through entrepreneurial leadership,
+                            in order to bring new Enactus projects to life.<br><br>
+
+                          -  We are also responsible for executing the project itself 
+                              to enhance our impact, empower the people in our community 
+                              and keeping up with stakeholders.<br><br>
+
                         </div>
                       </div>
                     </div>
@@ -359,12 +304,13 @@
                           Sub criteria for marketing member :
                         </div>
                         <ul class="question-details">
-                          <li>Willing to learn.</li>
-                          <li>Communication skills.</li>
-                          <li>Negotiation &amp; Persuasion skills.</li>
+                          <li>Problem Solver.</li>
                           <li>Creativity</li>
-                          <li>Experts at social media.</li>
-                          <li>Know the basic of graphic design</li>
+                          <li>Team Work</li>
+                          <li>Work under pressure</li>
+                          <li>Communication skills.</li>
+                          <li>Leadership </li>
+                          <li>Well-Organized</li>
                         </ul>
                       </div>
                     </div>
@@ -373,10 +319,12 @@
                       <div class="first-question">
                         <div class="question-title">What would you learn :</div>
                         <ul class="question-details">
-                          <li>Advanced Graphic Design</li>
-                          <li>Advanced Photographing</li>
-                          <li>Advanced Videography</li>
-                          <li>Marketing</li>
+                          <li>Business Knowledge.</li>
+                          <li>Project management Skills.</li>
+                          <li>Advanced Leadership.</li>
+                          <li>How to run business project.</li>
+                          <li>Documentation.</li>
+                          <li>Analytics.</li>
                         </ul>
                       </div>
                     </div>
@@ -411,7 +359,7 @@
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="#sectors">Apply Now</a>
+                          <a href="https://www.google.com/">Apply Now</a>
                         </div>
                       </div>
                     </div>
@@ -420,49 +368,24 @@
                       <h5 class="sector-heading">Responsibilities :</h5>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-12">
                       <div class="first-branch">
-                        <div class="branch-title">Designers</div>
+                        <!-- <div class="branch-title">HR</div> -->
                         <div class="branch-details">
-                          make designs such like "Flyers, Brochures, Banners
-                          etc" for the project and help social media for their
-                          demands. Marketing Marketing executives are involved
-                          in developing marketing campaigns to promote ideas.
-                          its a varied role that includes planning, advertising.
-                        </div>
-                      </div>
-                      <div class="second-branch">
-                        <div class="branch-title">Photographers</div>
-                        <div class="branch-details">
-                          Use a variety of photographic equipment to make
-                          pictorial records of people, events, and objects for
-                          the project.
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="col-sm-6">
-                      <div class="first-branch">
-                        <div class="branch-title">Video Editing</div>
-                        <div class="branch-details">
-                          Record Video footage and computer graphics and develop
-                          titles and motion graphics using software programs and
-                          dubbing video masters, writing scripts and creating
-                          video records.
+                          - Writing the scripts of the special &amp; final competitions.<br><br>
+
+                          - Facilitating the English clubs.<br><br>
+
+                          -  Presenting or hosting any event throughout the season.<br><br>
+                          
+                          -  Participating in the acting events.<br><br>
+
+                          -  Presenting the project in the national &amp; international competitions.<br><br>
+
                         </div>
                       </div>
-                      <div class="second-branch">
-                        <div class="branch-title">Social Media</div>
-                        <div class="branch-details">
-                          build and execute social media strategy through
-                          competitive research, platform determination,
-                          benchmarking, messaging, and audience identification
-                          and generate, edit, publish and share daily content
-                          that build meaning connections and encourages
-                          community members to take action.
-                        </div>
-                      </div>
-                    </div>
+                    </div>  
 
                     <div class="col-12">
                       <hr class="w-100" />
@@ -474,12 +397,13 @@
                           Sub criteria for marketing member :
                         </div>
                         <ul class="question-details">
-                          <li>Willing to learn.</li>
-                          <li>Communication skills.</li>
-                          <li>Negotiation &amp; Persuasion skills.</li>
-                          <li>Creativity</li>
-                          <li>Experts at social media.</li>
-                          <li>Know the basic of graphic design</li>
+                          <li>A Good potential of a presenter.</li>
+                          <li>A good level Spoken &amp; written English.</li>
+                          <li>Eager to learn.</li>
+                          <li>Team player.</li>
+                          <li>Good Communicator</li>
+                          <li>Critical thinker</li>
+                          <li>Creative</li>
                         </ul>
                       </div>
                     </div>
@@ -488,10 +412,13 @@
                       <div class="first-question">
                         <div class="question-title">What would you learn :</div>
                         <ul class="question-details">
-                          <li>Advanced Graphic Design</li>
-                          <li>Advanced Photographing</li>
-                          <li>Advanced Videography</li>
-                          <li>Marketing</li>
+                          <li>Punctuation &amp; formal writing</li>
+                          <li>Advanced presentation skills</li>
+                          <li>Improvising in English</li>
+                          <li>Advanced soft skills</li>
+                          <li>Script writing</li>
+                          <li>Story telling</li>
+                          <li>Acting</li>
                         </ul>
                       </div>
                     </div>
@@ -526,7 +453,7 @@
                         </div>
                         <hr />
                         <div class="join-btn">
-                          <a href="#sectors">Apply Now</a>
+                          <a href="https://www.google.com/">Apply Now</a>
                         </div>
                       </div>
                     </div>
@@ -552,6 +479,13 @@
                           Use a variety of photographic equipment to make
                           pictorial records of people, events, and objects for
                           the project.
+                        </div>
+                      </div>
+                      <div class="third-branch">
+                        <div class="branch-title">Marketing</div>
+                        <div class="branch-details">
+                          Marketing executives are involved in developing marketing campaigns to promote ideas.
+                          its a varied role that includes planning, advertising.
                         </div>
                       </div>
                     </div>
