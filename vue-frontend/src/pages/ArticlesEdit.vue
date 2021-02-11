@@ -1,35 +1,45 @@
 <template lang="en">
-    <div>
-        <input type="text" placeholder="New En Title" v-model="newEnTitle">
-        <input type="text" placeholder="New En Article" v-model="newEnArticle">
-        <input type="text" placeholder="New Ar Title" v-model="newArTitle">
-        <input type="text" placeholder="New Ar Article" v-model="newArArticle">
-        <input type="submit" value="Create new Article" @click="addArticle">
+  <div class="new-article">
+    <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <h1 class="heading">Create Article</h1>
+                <hr />
+            </div>
+          </div>
 
         <div>
-            <Article v-for="(article, index) in this.$store.state.articles" 
-            :key="article.id" :article="article" :index="index"></Article>
-            
-            <ArticleAr v-for="(article, index) in this.$store.state.articles" 
-            :key="article.id" :article="article" :index="index"></ArticleAr>
+          <input type="text" placeholder="New En Title" v-model="newEnTitle">
+          <textarea rows="10" cols="100" v-model="newEnArticle">New En Article</textarea>
+        </div>
+        
+        <div>
+          <input type="text" placeholder="New Ar Title" v-model="newArTitle">
+          <textarea rows="10" cols="100" v-model="newArArticle">New Ar Article</textarea>
+        </div>
+        
+        <div>
+           <input type="submit" value="Create new Article" @click="addArticle">
+        </div>
 
-            <ArticleDelete v-for="(article, index) in this.$store.state.articles" 
-            :key="article.id" :article="article" :index="index"></ArticleDelete>
+        <div>
+            <ArticleEdit v-for="(article, index) in this.$store.state.articles" 
+            :key="article.id" :article="article" :index="index"></ArticleEdit>
         </div>
         
     </div>
+  </div>
+
 </template>
 
 <script>
-import Article from "../components/Article";
+import ArticleEdit from "../components/ArticleEdit";
 import ArticleAr from "../components/ArticleAr";
-import ArticleDelete from "../components/ArticleDelete";
 
 export default {
   components: {
-    Article,
+    ArticleEdit,
     ArticleAr,
-    ArticleDelete,
   },
   data() {
     return {

@@ -1,6 +1,6 @@
 <template lang="en">
   <div>
-    <router-link :to="{ name: 'ar'}" class="lang display-5"> Ar </router-link>
+    <!-- <router-link :to="{ name: 'ar'}" class="lang display-5"> Ar </router-link> -->
   </div>
 </template>
 

@@ -22,14 +22,6 @@ export default new Router({
   linkExactActiveClass: "active",
   routes: [
     {
-      //For Language Component
-      path: "/ar",
-      name: "ar",
-      components: {
-        default: Home,
-      }
-    },
-    {
       path: "/",
       name: "home",
       components: {

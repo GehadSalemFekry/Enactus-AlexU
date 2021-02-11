@@ -15,9 +15,10 @@
 
         <div class="sidebar-content">
           <router-link :to="{ name: 'home'}" class="side-link">Home</router-link>
-          <router-link :to="{ name: 'team'}" class="side-link">Teams</router-link>
+          <router-link :to="{ name: 'team'}" class="side-link">Our Team</router-link>
           <router-link :to="{ name: 'gallery'}" class="side-link">Gallery</router-link>
           <router-link :to="{ name: 'products'}" class="side-link">Products</router-link>
+          <router-link :to="{ name: 'blog'}" class="side-link">Blog</router-link>
           <router-link :to="{ name: 'joinus'}" class="side-link">Join Us</router-link>
           <router-link :to="{ name: 'contactus'}" class="side-link">Contact Us</router-link>
         </div>
