@@ -18,5 +18,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+
+Route::get('/articles', 'ArticlesController@index');
+Route::post('/articles', 'ArticlesController@store');
+Route::patch('/articles/{article}', 'ArticlesController@update');
+Route::delete('/articles/{article}', 'ArticlesController@destroy');
+
 Route::post('/register', 'Api\AuthController@register');
 Route::post('/login', 'Api\AuthController@login');

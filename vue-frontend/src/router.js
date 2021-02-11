@@ -12,6 +12,8 @@ import Gallery from "./pages/Gallery";
 import WoodProject from "./pages/WoodProject";
 import LimpioProject from "./pages/LimpioProject";
 
+import ArticlesEdit from "./pages/ArticlesEdit";
+import Blog from "./pages/Blog";
 import BlogArticle from "./components/BlogArticle";
 
 Vue.use(Router);
@@ -99,10 +101,24 @@ export default new Router({
       }
     },
     {
+      path: "/blog",
+      name: "blog",
+      components: {
+        default: Blog,
+      }
+    },
+    {
       path: "/blog/:id",
       name: "blogArticle",
       components: {
         default: BlogArticle,
+      }
+    },
+    {
+      path: "/create-article",
+      name: "Articles",
+      components: {
+        default: ArticlesEdit,
       }
     },
   ],
