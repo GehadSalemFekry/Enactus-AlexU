@@ -23,96 +23,108 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      components: {
-        default: Home,
-      }
+      redirect: "/en"
     },
     {
-      path: "/team",
-      name: "team",
-      components: {
-        default: Team,
-      }
-    },
-    {
-      path: "/gallery",
-      name: "gallery",
-      components: {
-        default: Gallery,
-      }
-    },
-    {
-      path: "/products",
-      name: "products",
-      components: {
-        default: Products,
-      }
-    },
-    {
-      path: "/join",
-      name: "joinus",
-      components: {
-        default: Joinus,
-      }
-    },
-    {
-      path: "/contactus",
-      name: "contactus",
-      components: {
-        default: Contactus,
-      }
-    },
-    {
-      path: "/login",
-      name: "login",
-      components: {
-        default: Login,
-      }
-    },
-    {
-      path: "/signup",
-      name: "signup",
-      components: {
-        default: Signup,
-      }
-    },
+      path: "/:lang",
+      component: {
+        render (c) { return c('router-view') }
+      },
+      children: [
+        {
+          path: "/",
+          name: "home",
+          components: {
+            default: Home,
+          }
+        },
+        {
+          path: "team",
+          name: "team",
+          components: {
+            default: Team,
+          }
+        },
+        {
+          path: "gallery",
+          name: "gallery",
+          components: {
+            default: Gallery,
+          }
+        },
+        {
+          path: "products",
+          name: "products",
+          components: {
+            default: Products,
+          }
+        },
+        {
+          path: "join",
+          name: "joinus",
+          components: {
+            default: Joinus,
+          }
+        },
+        {
+          path: "contactus",
+          name: "contactus",
+          components: {
+            default: Contactus,
+          }
+        },
+        {
+          path: "login",
+          name: "login",
+          components: {
+            default: Login,
+          }
+        },
+        {
+          path: "signup",
+          name: "signup",
+          components: {
+            default: Signup,
+          }
+        },
 
-    {
-      path: "/products/wood",
-      name: "woodProject",
-      components: {
-        default: WoodProject,
-      }
-    },
-    {
-      path: "/products/limpio",
-      name: "limpioProject",
-      components: {
-        default: LimpioProject,
-      }
-    },
-    {
-      path: "/blog",
-      name: "blog",
-      components: {
-        default: Blog,
-      }
-    },
-    {
-      path: "/blog/:id",
-      name: "blogArticle",
-      components: {
-        default: BlogArticle,
-      }
-    },
-    {
-      path: "/create-article",
-      name: "Articles",
-      components: {
-        default: ArticlesEdit,
-      }
-    },
+        {
+          path: "products/wood",
+          name: "woodProject",
+          components: {
+            default: WoodProject,
+          }
+        },
+        {
+          path: "products/limpio",
+          name: "limpioProject",
+          components: {
+            default: LimpioProject,
+          }
+        },
+        {
+          path: "blog",
+          name: "blog",
+          components: {
+            default: Blog,
+          }
+        },
+        {
+          path: "blog/:id",
+          name: "blogArticle",
+          components: {
+            default: BlogArticle,
+          }
+        },
+        {
+          path: "create-article",
+          name: "Articles",
+          components: {
+            default: ArticlesEdit,
+          }
+        }
+      ]
+    }
   ],
 
 

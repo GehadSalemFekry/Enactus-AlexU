@@ -1,7 +1,9 @@
 <template lang="en">
   <div class="container">
     <div class="logo-div">
-        <img src='..\assets\img\fixed-logo.png' />
+        <router-link :to="{ name: 'home'}" class="side-link">
+          <img src='..\assets\img\fixed-logo.png' />
+        </router-link>
     </div>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template lang="en">
   <div>
     <div class="img-home">
-      <img src="../assets/img/home.gif" />
+      <img src="../assets/img/home.png" />
       <div class="img-text">
         TODAY'S <span>LEADERS</span> .. <br />
         TOMORROW'S <span>CHANGERS</span>

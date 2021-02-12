@@ -44,6 +44,12 @@
 .sector-card .sector-content p {
     color: $mainColor !important;
 }
+
+.sector-vp {
+    margin: 0px;
+}
+
+
 .team .nav-pills .nav-link {
     background-color: #fff;
     border-color: #fff;
@@ -60,7 +66,7 @@
 .member-card {
     margin: 35px auto;
     display: block;
-    width: 60%;
+    width: 70%;
     text-align: center;
 }
 
